@@ -1,21 +1,4 @@
 {
     "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "driverlib_lp_f2837xd",
-            "type": "ccs-debug",
-            "request": "launch",
-            "projectInfo": {
-                "name": "driverlib_lp_f2837xd",
-                "resourceId": "/driverlib_lp_f2837xd"
-            },
-            "debuggerSettings": {
-                "targetConfigs/TMS320F28379D.ccxml": {
-                    "Texas Instruments XDS100v2 USB Debug Probe_0/C28xx_CPU1": {
-                        "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
-                    }
-                }
-            }
-        }
-    ]
+    "configurations": []
 }
