@@ -1,4 +1,14 @@
 {
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "name": "c2000_adc_lab",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "c2000_adc_lab",
+                "resourceId": "/c2000_adc_lab"
+            }
+        }
+    ]
 }
