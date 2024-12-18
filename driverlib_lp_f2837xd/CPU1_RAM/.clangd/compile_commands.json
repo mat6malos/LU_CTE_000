@@ -1,0 +1,52 @@
+[
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device/F2837xD_CodeStartBranch.asm"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device/device.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/lab_main.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/source/F2837xD_CodeStartBranch.asm"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/source/F2837xD_DefaultISR.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/source/F2837xD_Gpio.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/source/F2837xD_PieCtrl.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/source/F2837xD_PieVect.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/source/F2837xD_SysCtrl.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/device\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include\" -DDEBUG -DCPU1 -D_LAUNCHXL_F28379D -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/driverlib_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Applications/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/source/F2837xD_usDelay.asm"
+   }
+]
