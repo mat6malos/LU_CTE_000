@@ -83,8 +83,8 @@ void PinMux_init()
 	GPIO_setPinConfig(GPIO_16_GPIO16);
 	// GPIO3 -> myGPIOToggle Pinmux
 	GPIO_setPinConfig(GPIO_3_GPIO3);
-	// GPIO31 -> myBoardLED0_GPIO Pinmux
-	GPIO_setPinConfig(GPIO_31_GPIO31);
+	// GPIO34 -> myBoardLED0_GPIO Pinmux
+	GPIO_setPinConfig(GPIO_34_GPIO34);
 
 }
 

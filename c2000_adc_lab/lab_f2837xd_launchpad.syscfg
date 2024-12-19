@@ -33,8 +33,8 @@ adc1.enableInterrupt1        = true;
 adc1.registerInterrupts      = ["1"];
 adc1.adcInt1.enableInterrupt = true;
 
-led1.$hardware = system.deviceData.board.components.LED4;
 led1.$name     = "myBoardLED0";
+led1.$hardware = system.deviceData.board.components.LED4;
 
 epwm1.$name                                             = "myEPWM1";
 epwm1.epwmTimebase_hsClockDiv                           = "EPWM_HSCLOCK_DIVIDER_1";
