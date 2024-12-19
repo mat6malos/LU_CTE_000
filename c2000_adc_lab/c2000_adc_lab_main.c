@@ -9,53 +9,63 @@
 //
 //#############################################################################
 //
-//
-// $Copyright:
-// Copyright (C) 2022 Texas Instruments Incorporated - http://www.ti.com/
-//
-// Redistribution and use in source and binary forms, with or without 
-// modification, are permitted provided that the following conditions 
-// are met:
-// 
-//   Redistributions of source code must retain the above copyright 
-//   notice, this list of conditions and the following disclaimer.
-// 
-//   Redistributions in binary form must reproduce the above copyright
-//   notice, this list of conditions and the following disclaimer in the 
-//   documentation and/or other materials provided with the   
-//   distribution.
-// 
-//   Neither the name of Texas Instruments Incorporated nor the names of
-//   its contributors may be used to endorse or promote products derived
-//   from this software without specific prior written permission.
-// 
-// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
-// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
-// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-// A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
-// OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
-// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
-// LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-// DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-// THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
-// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
-// OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-// $
-//#############################################################################
-
-//
 // Included Files
 //
 #include "driverlib.h"
 #include "device.h"
-
+#include "board.h"
+//
+// Global variables and definitions
+//
+#define ADC_BUF_LEN         50
+uint16_t DEBUG_TOGGLE = 1;    // Used for real-time mode
+uint16_t AdcBuf[ADC_BUF_LEN];  // ADC buffer allocation
+//
+// Function Declarations
+//
+__interrupt void INT_myADCA_1_ISR(void);
 //
 // Main
 //
 void main(void)
 {
-
+    // CPU Initialization
+    Device_init();
+    Interrupt_initModule();
+    Interrupt_initVectorTable();
+    // Configure the GPIOs/ADC/PWM through SysConfig generated function found within
+    // board.c
+    Board_init();
+    // Enable global interrupts and real-time debug
+    EINT;
+    ERTM;
+    // Main Loop
+    while(1){}
 }
+interrupt void INT_myADCA_1_ISR(void)
+{
+    static uint16_t *AdcBufPtr = AdcBuf;
+    static volatile uint16_t LED_count = 0;
+    // Read the ADC Result
+    *AdcBufPtr++ = ADC_readResult(myADCA_RESULT_BASE, myADCA_SOC0);
+    // Brute Force the circular buffer
+    if (AdcBufPtr == (AdcBuf + ADC_BUF_LEN))
+    {
+        AdcBufPtr = AdcBuf;
+    }
+    // Toggle the pin
+    if(DEBUG_TOGGLE == 1)
+    {
+        GPIO_togglePin(myGPIOToggle);             
+    }
+    if(LED_count++ > 25000)                      // Toggle slowly to see the LED blink
+    {
+        GPIO_togglePin(myBoardLED0_GPIO);                   // Toggle the pin
+        LED_count = 0;                           // Reset the counter
+    }
+    Interrupt_clearACKGroup(INT_myADCA_1_INTERRUPT_ACK_GROUP);
+    ADC_clearInterruptStatus(myADCA_BASE, ADC_INT_NUMBER1);
+} // End of ADC ISR
 
 //
 // End of File
