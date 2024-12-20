@@ -44,6 +44,10 @@ epwm1.epwmEventTrigger_enableInterrupt                  = true;
 epwm1.epwmEventTrigger_EPWM_SOC_A_triggerEnable         = true;
 epwm1.epwmEventTrigger_EPWM_SOC_A_triggerSource         = "EPWM_SOC_TBCTR_PERIOD";
 epwm1.epwmEventTrigger_EPWM_SOC_A_triggerEventPrescalar = "1";
+epwm1.epwm.$assign                                      = "EPWM1";
+epwm1.epwm.epwm_aPin.$assign                            = "boosterpack1.40";
+epwm1.epwm.epwm_bPin.$assign                            = "boosterpack1.39";
+scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to EPWM1 BP on the LaunchPad F28379D\\. Consider selecting it in \'use hardware\' above\\. @@@.+?@@@", epwm1.epwm, "epwm_aPin");
 
 gpio1.$name             = "myGPIOHigh";
 gpio1.direction         = "GPIO_DIR_MODE_OUT";
@@ -65,7 +69,4 @@ scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to EPWM2 BP on 
  * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
  * re-solve from scratch.
  */
-led1.gpio.gpioPin.$suggestSolution    = "GPIO31";
-epwm1.epwm.$suggestSolution           = "EPWM8";
-epwm1.epwm.epwm_aPin.$suggestSolution = "boosterpack2.74";
-epwm1.epwm.epwm_bPin.$suggestSolution = "boosterpack2.73";
+led1.gpio.gpioPin.$suggestSolution = "GPIO31";

@@ -69,7 +69,7 @@ void PinMux_init()
 	//
 	
 	//
-	// EPWM8 -> myEPWM1 Pinmux
+	// EPWM1 -> myEPWM1 Pinmux
 	//
 	GPIO_setPinConfig(myEPWM1_EPWMA_PIN_CONFIG);
 	GPIO_setPadConfig(myEPWM1_EPWMA_GPIO, GPIO_PIN_TYPE_STD);
