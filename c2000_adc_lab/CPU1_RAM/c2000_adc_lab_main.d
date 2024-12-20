@@ -1,6 +1,7 @@
 # FIXED
 
 c2000_adc_lab_main.obj: ../c2000_adc_lab_main.c
+c2000_adc_lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_adc_lab/device/device.h
 c2000_adc_lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_adc_lab/device/driverlib.h
 c2000_adc_lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h
 c2000_adc_lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/adc.h
@@ -91,6 +92,8 @@ c2000_adc_lab_main.obj: syscfg/board.h
 c2000_adc_lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_adc_lab/device/device.h
 
 ../c2000_adc_lab_main.c:
+
+/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_adc_lab/device/device.h:
 
 /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_adc_lab/device/driverlib.h:
 
