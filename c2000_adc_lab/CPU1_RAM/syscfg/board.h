@@ -82,9 +82,9 @@ extern "C"
 //
 #define myGPIOToggle_GPIO_PIN_CONFIG GPIO_3_GPIO3
 //
-// GPIO34 - GPIO Settings
+// GPIO31 - GPIO Settings
 //
-#define myBoardLED0_GPIO_GPIO_PIN_CONFIG GPIO_34_GPIO34
+#define myBoardLED0_GPIO_GPIO_PIN_CONFIG GPIO_31_GPIO31
 
 //*****************************************************************************
 //
@@ -129,7 +129,7 @@ void myADCA_init();
 void myGPIOHigh_init();
 #define myGPIOToggle 3
 void myGPIOToggle_init();
-#define myBoardLED0_GPIO 34
+#define myBoardLED0_GPIO 31
 void myBoardLED0_GPIO_init();
 
 //*****************************************************************************
