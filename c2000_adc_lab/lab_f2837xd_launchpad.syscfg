@@ -44,9 +44,9 @@ epwm1.epwmEventTrigger_enableInterrupt                  = true;
 epwm1.epwmEventTrigger_EPWM_SOC_A_triggerEnable         = true;
 epwm1.epwmEventTrigger_EPWM_SOC_A_triggerSource         = "EPWM_SOC_TBCTR_PERIOD";
 epwm1.epwmEventTrigger_EPWM_SOC_A_triggerEventPrescalar = "1";
-epwm1.epwm.$assign                                      = "EPWM4";
-epwm1.epwm.epwm_aPin.$assign                            = "boosterpack2.80";
-epwm1.epwm.epwm_bPin.$assign                            = "boosterpack2.79";
+epwm1.epwm.$assign                                      = "EPWM1";
+epwm1.epwm.epwm_aPin.$assign                            = "boosterpack1.40";
+epwm1.epwm.epwm_bPin.$assign                            = "boosterpack1.39";
 
 gpio1.$name             = "myGPIOHigh";
 gpio1.direction         = "GPIO_DIR_MODE_OUT";

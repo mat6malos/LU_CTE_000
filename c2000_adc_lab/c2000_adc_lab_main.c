@@ -11,8 +11,6 @@
 //
 // Included Files
 //
-#include "driverlib.h"
-#include "device.h"
 #include "board.h"
 //
 // Global variables and definitions
