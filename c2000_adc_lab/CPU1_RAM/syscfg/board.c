@@ -134,12 +134,12 @@ void myADCA_init(){
 	//
 	// Configures a start-of-conversion (SOC) in the ADC and its interrupt SOC trigger.
 	// 	  	SOC number		: 0
-	//	  	Trigger			: ADC_TRIGGER_EPWM1_SOCB
+	//	  	Trigger			: ADC_TRIGGER_EPWM1_SOCA
 	//	  	Channel			: ADC_CH_ADCIN0
 	//	 	Sample Window	: 20 SYSCLK cycles
 	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
 	//
-	ADC_setupSOC(myADCA_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCB, ADC_CH_ADCIN0, 20U);
+	ADC_setupSOC(myADCA_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN0, 20U);
 	ADC_setInterruptSOCTrigger(myADCA_BASE, ADC_SOC_NUMBER0, ADC_INT_SOC_TRIGGER_NONE);
 	//
 	// ADC Interrupt 1 Configuration
