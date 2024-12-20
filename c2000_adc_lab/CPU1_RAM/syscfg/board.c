@@ -69,7 +69,7 @@ void PinMux_init()
 	//
 	
 	//
-	// EPWM3 -> myEPWM1 Pinmux
+	// EPWM8 -> myEPWM1 Pinmux
 	//
 	GPIO_setPinConfig(myEPWM1_EPWMA_PIN_CONFIG);
 	GPIO_setPadConfig(myEPWM1_EPWMA_GPIO, GPIO_PIN_TYPE_STD);
@@ -134,12 +134,12 @@ void myADCA_init(){
 	//
 	// Configures a start-of-conversion (SOC) in the ADC and its interrupt SOC trigger.
 	// 	  	SOC number		: 0
-	//	  	Trigger			: ADC_TRIGGER_EPWM3_SOCA
+	//	  	Trigger			: ADC_TRIGGER_EPWM8_SOCB
 	//	  	Channel			: ADC_CH_ADCIN0
 	//	 	Sample Window	: 20 SYSCLK cycles
 	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
 	//
-	ADC_setupSOC(myADCA_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM3_SOCA, ADC_CH_ADCIN0, 20U);
+	ADC_setupSOC(myADCA_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM8_SOCB, ADC_CH_ADCIN0, 20U);
 	ADC_setInterruptSOCTrigger(myADCA_BASE, ADC_SOC_NUMBER0, ADC_INT_SOC_TRIGGER_NONE);
 	//
 	// ADC Interrupt 1 Configuration
