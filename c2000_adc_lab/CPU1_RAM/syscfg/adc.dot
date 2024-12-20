@@ -72,9 +72,9 @@ digraph {
         adca_ADC_TRIGGER_SW_ONLY_soc14[label="soc14 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 41)" fillcolor="#FFA0A0" width="21.000" pos="310.500,-9.000!"]
           
         adca_ADC_TRIGGER_SW_ONLY_soc15[label="soc15 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 41)" fillcolor="#FFA0A0" width="21.000" pos="331.500,-9.000!"]
-        ADC_TRIGGER_EPWM8_SOCB[label="ePWM8, ADCSOCB" fillcolor="yellow"  fontsize="40" color="white" pos="24.000,-12.000!"]
+        ADC_TRIGGER_EPWM4_SOCA[label="ePWM4, ADCSOCA" fillcolor="yellow"  fontsize="40" color="white" pos="24.000,-12.000!"]
           
-        adca_ADC_TRIGGER_EPWM8_SOCB[label="ADCA"  fontsize="40" fillcolor="white" color="white" pos="24.000,-18.000!"]
+        adca_ADC_TRIGGER_EPWM4_SOCA[label="ADCA"  fontsize="40" fillcolor="white" color="white" pos="24.000,-18.000!"]
           
-        adca_ADC_TRIGGER_EPWM8_SOCB_soc0[label="soc0 (S+H[SYSCLK]: 20, Conv[SYSCLK]: 41)" fillcolor="#FFA0A0" width="30.500" pos="42.250,-18.000!"]
+        adca_ADC_TRIGGER_EPWM4_SOCA_soc0[label="soc0 (S+H[SYSCLK]: 20, Conv[SYSCLK]: 41)" fillcolor="#FFA0A0" width="30.500" pos="42.250,-18.000!"]
 }

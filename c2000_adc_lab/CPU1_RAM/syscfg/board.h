@@ -59,20 +59,20 @@ extern "C"
 //*****************************************************************************
 
 //
-// EPWM8 -> myEPWM1 Pinmux
+// EPWM4 -> myEPWM1 Pinmux
 //
 //
-// EPWM8A - GPIO Settings
+// EPWM4A - GPIO Settings
 //
-#define GPIO_PIN_EPWM8A 14
-#define myEPWM1_EPWMA_GPIO 14
-#define myEPWM1_EPWMA_PIN_CONFIG GPIO_14_EPWM8A
+#define GPIO_PIN_EPWM4A 6
+#define myEPWM1_EPWMA_GPIO 6
+#define myEPWM1_EPWMA_PIN_CONFIG GPIO_6_EPWM4A
 //
-// EPWM8B - GPIO Settings
+// EPWM4B - GPIO Settings
 //
-#define GPIO_PIN_EPWM8B 15
-#define myEPWM1_EPWMB_GPIO 15
-#define myEPWM1_EPWMB_PIN_CONFIG GPIO_15_EPWM8B
+#define GPIO_PIN_EPWM4B 7
+#define myEPWM1_EPWMB_GPIO 7
+#define myEPWM1_EPWMB_PIN_CONFIG GPIO_7_EPWM4B
 //
 // GPIO16 - GPIO Settings
 //
@@ -96,7 +96,7 @@ extern "C"
 #define myADCA_SOC0 ADC_SOC_NUMBER0
 #define myADCA_FORCE_SOC0 ADC_FORCE_SOC0
 #define myADCA_SAMPLE_WINDOW_SOC0 100
-#define myADCA_TRIGGER_SOURCE_SOC0 ADC_TRIGGER_EPWM8_SOCB
+#define myADCA_TRIGGER_SOURCE_SOC0 ADC_TRIGGER_EPWM4_SOCA
 #define myADCA_CHANNEL_SOC0 ADC_CH_ADCIN0
 void myADCA_init();
 
@@ -106,7 +106,7 @@ void myADCA_init();
 // EPWM Configurations
 //
 //*****************************************************************************
-#define myEPWM1_BASE EPWM8_BASE
+#define myEPWM1_BASE EPWM4_BASE
 #define myEPWM1_TBPRD 1999
 #define myEPWM1_COUNTER_MODE EPWM_COUNTER_MODE_UP
 #define myEPWM1_TBPHS 0
