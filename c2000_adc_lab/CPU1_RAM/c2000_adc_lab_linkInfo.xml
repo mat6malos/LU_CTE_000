@@ -2,7 +2,7 @@
 <link_info>
    <banner>TMS320C2000 Linker Unix v22.6.1A23259</banner>
    <copyright>Copyright (c) 1996-2018 Texas Instruments Incorporated</copyright>
-   <link_time>0x6765ab22</link_time>
+   <link_time>0x676d4f34</link_time>
    <link_errors>0x0</link_errors>
    <output_file>c2000_adc_lab.out</output_file>
    <entry_point>
@@ -2858,7 +2858,7 @@
          <size>0x21</size>
          <input_file_ref idref="fl-20"/>
       </object_component>
-      <object_component id="oc-11a">
+      <object_component id="oc-11b">
          <name>.debug_line</name>
          <load_address>0x41d4</load_address>
          <run_address>0x41d4</run_address>
@@ -3712,7 +3712,7 @@
          <size>0x40</size>
          <input_file_ref idref="fl-20"/>
       </object_component>
-      <object_component id="oc-11b">
+      <object_component id="oc-11a">
          <name>.debug_frame</name>
          <load_address>0x1b10</load_address>
          <run_address>0x1b10</run_address>
@@ -7149,7 +7149,7 @@
             <object_component_ref idref="oc-22c"/>
             <object_component_ref idref="oc-fb"/>
             <object_component_ref idref="oc-15a"/>
-            <object_component_ref idref="oc-11a"/>
+            <object_component_ref idref="oc-11b"/>
             <object_component_ref idref="oc-198"/>
             <object_component_ref idref="oc-65"/>
             <object_component_ref idref="oc-f3"/>
@@ -7279,7 +7279,7 @@
             <object_component_ref idref="oc-1c6"/>
             <object_component_ref idref="oc-1a7"/>
             <object_component_ref idref="oc-fc"/>
-            <object_component_ref idref="oc-11b"/>
+            <object_component_ref idref="oc-11a"/>
             <object_component_ref idref="oc-66"/>
             <object_component_ref idref="oc-2b"/>
             <object_component_ref idref="oc-25"/>
