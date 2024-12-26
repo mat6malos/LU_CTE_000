@@ -50,6 +50,7 @@ void Board_init()
 	PinMux_init();
 	SYNC_init();
 	ADC_init();
+	DAC_init();
 	EPWM_init();
 	GPIO_init();
 	INTERRUPT_init();
@@ -155,6 +156,39 @@ void myADCA_init(){
 }
 
 
+
+//*****************************************************************************
+//
+// DAC Configurations
+//
+//*****************************************************************************
+void DAC_init(){
+	myDACB_init();
+}
+
+void myDACB_init(){
+	//
+	// Set DAC reference voltage.
+	//
+	DAC_setReferenceVoltage(myDACB_BASE, DAC_REF_ADC_VREFHI);
+	//
+	// Set DAC load mode.
+	//
+	DAC_setLoadMode(myDACB_BASE, DAC_LOAD_SYSCLK);
+	//
+	// Enable the DAC output
+	//
+	DAC_enableOutput(myDACB_BASE);
+	//
+	// Set the DAC shadow output
+	//
+	DAC_setShadowValue(myDACB_BASE, 800U);
+
+	//
+	// Delay for buffered DAC to power up.
+	//
+	DEVICE_DELAY_US(500);
+}
 
 //*****************************************************************************
 //
