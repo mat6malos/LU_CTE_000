@@ -2,7 +2,7 @@
 
 syscfg/board.obj: syscfg/board.c
 syscfg/board.obj: syscfg/board.h
-syscfg/board.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/driverlib.h
+syscfg/board.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/driverlib.h
 syscfg/board.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h
 syscfg/board.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/adc.h
 syscfg/board.obj: /Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include/stdbool.h
@@ -88,13 +88,13 @@ syscfg/board.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/
 syscfg/board.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_upp.h
 syscfg/board.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/version.h
 syscfg/board.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h
-syscfg/board.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/device.h
+syscfg/board.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h
 
 syscfg/board.c:
 
 syscfg/board.h:
 
-/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/driverlib.h:
+/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/driverlib.h:
 
 /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h:
 
@@ -266,5 +266,5 @@ syscfg/board.h:
 
 /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h:
 
-/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/device.h:
+/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h:
 

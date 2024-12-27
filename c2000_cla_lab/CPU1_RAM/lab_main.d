@@ -1,7 +1,7 @@
 # FIXED
 
 lab_main.obj: ../lab_main.c
-lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/driverlib.h
+lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/driverlib.h
 lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h
 lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/adc.h
 lab_main.obj: /Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include/stdbool.h
@@ -88,13 +88,13 @@ lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driv
 lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/version.h
 lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h
 lab_main.obj: syscfg/board.h
-lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/device.h
+lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h
 lab_main.obj: ../lab_shared.h
-lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/device.h
+lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h
 
 ../lab_main.c:
 
-/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/driverlib.h:
+/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/driverlib.h:
 
 /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h:
 
@@ -268,9 +268,9 @@ lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f
 
 syscfg/board.h:
 
-/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/device.h:
+/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h:
 
 ../lab_shared.h:
 
-/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/device.h:
+/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h:
 

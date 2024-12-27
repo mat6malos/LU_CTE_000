@@ -3,7 +3,7 @@
 syscfg/c2000ware_libraries.obj: syscfg/c2000ware_libraries.c
 syscfg/c2000ware_libraries.obj: syscfg/c2000ware_libraries.h
 syscfg/c2000ware_libraries.obj: syscfg/board.h
-syscfg/c2000ware_libraries.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/driverlib.h
+syscfg/c2000ware_libraries.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/driverlib.h
 syscfg/c2000ware_libraries.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h
 syscfg/c2000ware_libraries.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/adc.h
 syscfg/c2000ware_libraries.obj: /Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include/stdbool.h
@@ -89,7 +89,7 @@ syscfg/c2000ware_libraries.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driv
 syscfg/c2000ware_libraries.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_upp.h
 syscfg/c2000ware_libraries.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/version.h
 syscfg/c2000ware_libraries.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h
-syscfg/c2000ware_libraries.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/device.h
+syscfg/c2000ware_libraries.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h
 
 syscfg/c2000ware_libraries.c:
 
@@ -97,7 +97,7 @@ syscfg/c2000ware_libraries.h:
 
 syscfg/board.h:
 
-/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/driverlib.h:
+/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/driverlib.h:
 
 /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h:
 
@@ -269,5 +269,5 @@ syscfg/board.h:
 
 /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h:
 
-/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/lab_cla_lp_f2837xd/device/device.h:
+/Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h:
 
