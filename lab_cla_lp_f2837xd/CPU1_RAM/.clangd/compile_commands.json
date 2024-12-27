@@ -1,0 +1,22 @@
+[
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -DCPU1 -DDEBUG -D_LAUNCHXL_F28379D -D_DUAL_CORE_ -DF2837XD_DEVICE -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device/F2837xD_CodeStartBranch.asm"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -DCPU1 -DDEBUG -D_LAUNCHXL_F28379D -D_DUAL_CORE_ -DF2837XD_DEVICE -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device/device.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -DCPU1 -DDEBUG -D_LAUNCHXL_F28379D -D_DUAL_CORE_ -DF2837XD_DEVICE -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/lab_cla_tasks.cla"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/CPU1_RAM",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device\" -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/device/include\" -I\"/Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -DCPU1 -DDEBUG -D_LAUNCHXL_F28379D -D_DUAL_CORE_ -DF2837XD_DEVICE -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/CPU1_RAM/syscfg\"",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/lab_cla_lp_f2837xd/lab_main.c"
+   }
+]
