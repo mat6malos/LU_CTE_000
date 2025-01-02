@@ -12,9 +12,8 @@
 // Included Files
 //
 #include "driverlib.h"
-#include "board.h"
-#include "lab_shared.h"
 #include "device.h"
+#include "board.h"
 #define BUF_BITS    7                           // Buffer bits <= 16.
 #define BUF_LEN     (1 << BUF_BITS)             // Buffer length.
 #define BUF_MASK    ((uint16_t)(BUF_LEN - 1))   // Buffer mask.
@@ -27,19 +26,6 @@ uint16_t    LedCtr      = 0;
 float filter_out;
 #pragma DATA_SECTION(filter_in,"Cla1ToCpuMsgRAM");
 float filter_in;
-#define FIR_LEN     32
-const float coeffs[FIR_LEN] = {
-    -0.0006103139426196,-0.005592184655005,-0.01292485322836 ,-0.01926532895538,
-    -0.01762908502044  ,-0.004303218458627, 0.01563724674838 , 0.02815885544785,
-     0.01902562195175  ,-0.01290472511163 ,-0.04827630093442 ,-0.0545188692635,
-    -0.006464860729499 , 0.09270744275212 , 0.2064249836238  , 0.2822241125204,
-     0.2822241125204   , 0.2064249836238  , 0.09270744275212 ,-0.006464860729499,
-    -0.0545188692635   ,-0.04827630093442 ,-0.01290472511163 , 0.01902562195175,
-     0.02815885544785  , 0.01563724674838 ,-0.004303218458627,-0.01762908502044,
-    -0.01926532895538  ,-0.01292485322836 ,-0.005592184655005,-0.0006103139426196
-};
-float delay[FIR_LEN];
-
 //
 // Main
 //
@@ -58,34 +44,6 @@ void main(void)
     ERTM;
     for(;;) {
         NOP;  // Do nothing.
-    }
-}
-// FIR LP filter task.
-__attribute__((interrupt)) void Cla1Task1(void)
-{
-    int16_t i;
-    uint16_t tmpData;
-    filter_out = 0.0;
-    // Uncomment this to debug the CLA while connected to the debugger
-    //__mdebugstop();
-    // Read in new sample and subtract off the bias.
-    tmpData = ADC_readResult(myADC0_RESULT_BASE, myADC0_SOC0);
-    filter_in = ((float)(tmpData) - (float)(1 << (ADC_BITS - 1)))*ADC_VSTEP;
-    // Shift the delay line to the right by 1.
-    #pragma UNROLL(FIR_LEN - 1)
-    for (i = FIR_LEN - 1; i > 0; i--) {
-        delay[i] = delay[i-1];
-        filter_out += coeffs[i]*delay[i];
-    }
-    // Add the new ADC sample to the delay line.
-    delay[0] = filter_in;
-    filter_out += coeffs[0]*delay[0];
-}
-__attribute__((interrupt)) void Cla1Task8(void)
-{
-    int16_t i;
-    for (i = 0; i < ((int16_t)FIR_LEN); i++) {
-        delay[i] = 0.0;
     }
 }
 __interrupt void cla1Isr1(void)

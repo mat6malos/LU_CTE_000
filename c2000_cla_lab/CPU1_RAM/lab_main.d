@@ -87,9 +87,8 @@ lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driv
 lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_upp.h
 lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/version.h
 lab_main.obj: /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h
-lab_main.obj: syscfg/board.h
 lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h
-lab_main.obj: ../lab_shared.h
+lab_main.obj: syscfg/board.h
 lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h
 
 ../lab_main.c:
@@ -266,11 +265,9 @@ lab_main.obj: /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_la
 
 /Applications/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h:
 
-syscfg/board.h:
-
 /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h:
 
-../lab_shared.h:
+syscfg/board.h:
 
 /Users/lucasmatamoros/Desktop/Practica\ CTE/Workspace/c2000_cla_lab/device/device.h:
 
