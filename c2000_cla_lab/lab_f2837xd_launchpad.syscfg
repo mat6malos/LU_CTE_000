@@ -84,8 +84,6 @@ scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to EPWM2 BP on 
 
 memcfg.config_MEMCFG_SECT_LS1 = "CLA_data";
 memcfg.config_MEMCFG_SECT_LS5 = "CLA_prog";
-memcfg.init_MEMCFG_SECT_LS1   = true;
-memcfg.init_MEMCFG_SECT_LS5   = true;
 
 /**
  * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future

@@ -325,10 +325,6 @@ void MEMCFG_init(){
 	//
 	// Initialize RAMs
 	//
-	MemCfg_initSections(MEMCFG_SECT_LS1);
-	MemCfg_initSections(MEMCFG_SECT_LS5);
-	while(!MemCfg_getInitStatus(MEMCFG_SECT_LS1));
-	while(!MemCfg_getInitStatus(MEMCFG_SECT_LS5));
 	//
 	// Configure LSRAMs
 	//
