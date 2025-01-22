@@ -1,0 +1,67 @@
+[
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_Adc.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_CodeStartBranch.asm"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_CpuTimers.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_DefaultISR.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_GlobalVariableDefs.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_Gpio.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_PieCtrl.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_PieVect.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_Spi.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_SysCtrl.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/F2837xD_usDelay.asm"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Peripheral_Setup.c"
+   },
+   {
+      "directory" : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/Debug",
+      "command"   : "clang++ -I\"/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs\" -I\"/Applications/ti/ccs2000/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include\" -I\"D:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2837xd/common/include\" -DCPU1 -D_LAUNCHXL_F28379D",
+      "file"      : "/Users/lucasmatamoros/Desktop/Practica CTE/Workspace/F28379D_3ph_PWMs/main.c"
+   }
+]
